@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> coração</title>
+   
+    <style>
+        body{
+            background: black;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 800% 800% 800% 0;
+            transform: rotate(-45deg);
+        }
+        div:nth-child(1){
+            background: rgba(953, 163, 66, 0.1);
+            box-shadow: 0 0 45px #f8790c;
+            animation: animate 3.5s linear infinite;
+        }
+        div:nth-child(2){
+            top: -80px;
+            right: 80px;
+            background: rgba (253,112,191,0);
+            box-shadow: 0 0 15px #f7838a;
+            animation: animate 5.5s linear infinite;
+        }
+        div:nth-child(3){
+            top: -80px;
+            left: 80px;
+            background: rgba(12, 104, 67, 0);
+            box-shadow: 0 0 15px #0ca2cf;
+            animation: animate 8.5s linear infinite;
+        }
+
+
+
+
+        @keyframes animate{
+            100%{
+                filter: hue-rotate(1060deg);
+            }
+        }
+
+    </style>
+     
+    
+</head>
+
+<body>
+  
+
+    <div></div>
+    <div></div>
+    <div></div>
+    
+</body> 
+
+</html>
